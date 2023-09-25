@@ -18,7 +18,6 @@ void draw()
   line(startX, startY, endX, endY);
   startX = endX;
   startY = endY;
-  System.out.println(endY);
   for (int i = 50; i < 200; i += 30) { 
     ellipse(i, 50, 50, 50);
     ellipse(i, 90, 50, 50);
