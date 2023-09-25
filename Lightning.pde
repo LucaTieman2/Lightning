@@ -25,9 +25,9 @@ void draw()
     ellipse(200, 80, 50, 50);
     ellipse(30, 80, 50, 50);
   }
-  for (int i = 300; i < 400; i += 30) { 
-    ellipse(i, 50, 50, 50);   
-    ellipse(i, 80, 50, 50);   
+  for (int x = 300; x < 400; x += 30) { 
+    ellipse(x, 50, 50, 50);   
+    ellipse(x, 80, 50, 50);   
     ellipse(270, 60, 50, 50);
     ellipse(440, 60, 50, 50);
   }
